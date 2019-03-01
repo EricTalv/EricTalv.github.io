@@ -8,3 +8,9 @@ A Web Testing environment
 + MySQL for database action
 
 
+# To Consider
+
++ Databases
++ REST API Endpoints
++ Cross-Platform Data reading
+
