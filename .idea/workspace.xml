@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,11 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b43a0a9d-2f77-47fb-a589-5257c7f70cc2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grid_randomizer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,9 +51,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="grid_randomizer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/EricTalv.github.io/grid_randomizer.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.grid_randomizer.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +76,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653393325235</updated>
-      <workItem from="1653393327137" duration="248000" />
+      <workItem from="1653393327137" duration="3911000" />
+      <workItem from="1653400602375" duration="16197000" />
     </task>
     <servers />
   </component>
@@ -72,11 +94,92 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1479" y="329" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1653400879208">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1479" y="329" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653400879208" />
     <state x="756" y="333" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1653393347828">
       <screen x="0" y="23" width="1280" height="1001" />
     </state>
     <state x="756" y="333" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653393347828" />
+    <state width="603" height="618" key="DebuggerActiveHint" timestamp="1653594684235">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="603" height="618" key="DebuggerActiveHint/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653594684235" />
+    <state width="1105" height="90" key="GridCell.Tab.0.bottom" timestamp="1653592680395">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.0.bottom/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680395" />
+    <state width="1105" height="90" key="GridCell.Tab.0.center" timestamp="1653592680394">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.0.center/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680394" />
+    <state width="1105" height="90" key="GridCell.Tab.0.left" timestamp="1653592680394">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.0.left/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680394" />
+    <state width="1105" height="90" key="GridCell.Tab.0.right" timestamp="1653592680395">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.0.right/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680395" />
+    <state width="1105" height="90" key="GridCell.Tab.1.bottom" timestamp="1653592680397">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.1.bottom/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680397" />
+    <state width="1105" height="90" key="GridCell.Tab.1.center" timestamp="1653592680396">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.1.center/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680396" />
+    <state width="1105" height="90" key="GridCell.Tab.1.left" timestamp="1653592680396">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.1.left/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680396" />
+    <state width="1105" height="90" key="GridCell.Tab.1.right" timestamp="1653592680397">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.1.right/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680397" />
+    <state width="1105" height="90" key="GridCell.Tab.2.bottom" timestamp="1653592680399">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.2.bottom/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680399" />
+    <state width="1105" height="90" key="GridCell.Tab.2.center" timestamp="1653592680398">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.2.center/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680398" />
+    <state width="1105" height="90" key="GridCell.Tab.2.left" timestamp="1653592680398">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.2.left/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680398" />
+    <state width="1105" height="90" key="GridCell.Tab.2.right" timestamp="1653592680398">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.2.right/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680398" />
+    <state width="1105" height="90" key="GridCell.Tab.3.bottom" timestamp="1653592680400">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.3.bottom/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680400" />
+    <state width="1105" height="90" key="GridCell.Tab.3.center" timestamp="1653592680399">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.3.center/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680399" />
+    <state width="1105" height="90" key="GridCell.Tab.3.left" timestamp="1653592680399">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.3.left/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680399" />
+    <state width="1105" height="90" key="GridCell.Tab.3.right" timestamp="1653592680399">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1105" height="90" key="GridCell.Tab.3.right/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653592680399" />
+    <state x="11" y="220" width="1269" height="722" key="SettingsEditor" timestamp="1653400702813">
+      <screen x="0" y="23" width="1280" height="1001" />
+    </state>
+    <state x="11" y="220" width="1269" height="722" key="SettingsEditor/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653400702813" />
+    <state x="1905" y="256" key="run.anything.popup" timestamp="1653594643467">
+      <screen x="1280" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1905" y="256" key="run.anything.popup/0.23.1280.1001/1280.23.1920.1057@1280.23.1920.1057" timestamp="1653594643467" />
   </component>
 </project>

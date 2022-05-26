@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas_playground</title>
+
+    <script>
+
+        // set global canvas variable
+        var canvas;
+        var ctx;
+        var myInterval;
+
+
+        function init()
+        {
+
+            // get canvas element
+            canvas = document.getElementById("tutorial");
+
+
+            // set canvas element size
+            canvas.width = 500;
+            canvas.height = 500;
+
+            // check context support
+            if (canvas.getContext) {
+
+                // start animation loop
+                myInterval = setInterval(drawRectangles, 800);
+
+
+                // when over the canvas stop animation
+                canvas.addEventListener('mouseover', e => {
+                    stopInterval();
+                });
+
+                // when leaving canvas start the animation again
+                canvas.addEventListener('mouseleave', e => {
+                    myInterval = setInterval(drawRectangles, 600);
+                });
+
+
+            }
+
+
+        }
+
+
+
+        function drawRectangles() {
+
+
+            // set context
+            ctx = canvas.getContext('2d');
+
+            // create random numbers for choosing column and row
+            var randomCol = Math.floor(Math.random() * 9);
+            var randomRow = Math.floor(Math.random() * 9);
+
+            // start looping in X direction
+            for (var row = 0; row < 9; row++) {
+
+                //start looping in Y direction
+                for (let col = 0; col < 9; col++) {
+
+                    // set rectangle coordinates
+                    var x = 25 + row * 50;
+                    var y = 25 + col * 50;
+
+
+                    // set default rectangle style to black
+                    ctx.fillStyle = "black";
+
+                    // when col and random col match we select that whole column
+                    if ( col === randomCol) {
+                        ctx.fillStyle = "red";
+                    }
+
+                    // when row and random row match we select that whole row
+                    if (row === randomRow) {
+                        ctx.fillStyle = "blue";
+                    }
+
+                    // when both row and col numbers match with the random numbers
+                    // then we have found the intersection between the column and rows
+                    if (row === randomRow && col === randomCol) {
+                        ctx.fillStyle = "lime"
+                    }
+
+                    // draw the rectangle
+                    ctx.fillRect(x, y, 40, 40);
+                }
+            }
+        }
+
+
+    function stopInterval() {
+        clearInterval(myInterval);
+    }
+
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            padding: 0;
+            margin: 0;
+
+            height: 90%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+        }
+
+        canvas {
+            border: 5px solid black;
+        }
+
+    </style>
+
+</head>
+<body onload="init();">
+
+    <canvas id="tutorial" ></canvas>
+
+</body>
+</html>
