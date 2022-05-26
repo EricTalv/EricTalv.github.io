@@ -23,9 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b43a0a9d-2f77-47fb-a589-5257c7f70cc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/grid_randomizer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid_randomizer.html" beforeDir="false" afterPath="$PROJECT_DIR$/grid_randomizer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
       <option name="presentableId" value="Default" />
       <updated>1653393325235</updated>
       <workItem from="1653393327137" duration="3911000" />
-      <workItem from="1653400602375" duration="16197000" />
+      <workItem from="1653400602375" duration="16284000" />
     </task>
     <servers />
   </component>
