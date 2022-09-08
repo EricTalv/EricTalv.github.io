@@ -1,3 +1,4 @@
-# EricTalv.github.io
-Vanilla JS Playground
+## Description 
+
+I plan to use this for random JS experiments.
 
